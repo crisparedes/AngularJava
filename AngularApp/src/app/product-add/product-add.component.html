@@ -1,0 +1,12 @@
+<div>
+  <h2>Product Add</h2>
+  <div>
+    <label>Product ID:
+      <input [(ngModel)]="productData.id_producto" placeholder="Id Producto"/>
+    </label><br>
+    <label>Product Descripcion:
+      <input [(ngModel)]="productData.descripcion" placeholder="Producto"/>
+    </label><br>
+  </div>
+  <button (click)="addProduct()">Guardar</button>
+</div>

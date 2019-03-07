@@ -1,0 +1,10 @@
+<div *ngIf="product" class="products">
+  <h2>Details</h2>
+  <div><span>Id Producto: </span>{{product.id_producto}}</div>
+  <div><span>Descripcion: </span>{{product.descripcion}}</div>
+  <div>
+    <button routerLink="/product-edit/{{product.id_producto}}">
+      Edit
+    </button>
+  </div>
+</div>
